@@ -3,7 +3,7 @@ locals {
     project     = "terraform-lab"
     environment = "dev"
     owner       = "learner-demo"
-    cost_center = "training"
+    cost_center = "training-reviewed"
     managed_by  = "terraform"
   }
 }
