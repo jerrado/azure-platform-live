@@ -12,3 +12,8 @@ output "subnet_ids" {
   description = "Created subnet IDs by logical key."
   value       = module.network.subnet_ids
 }
+
+output "subnet_names" {
+  description = "Subnet names from network module v1.1.1."
+  value       = module.network.subnet_names
+}
