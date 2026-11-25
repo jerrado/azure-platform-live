@@ -17,7 +17,7 @@ module "resource_group" {
 }
 
 module "network" {
-  source = "git::https://github.com/Jerrado/terraform-azurerm-network.git?ref=v1.0.0"
+  source = "git::https://github.com/Jerrado/terraform-azurerm-network.git?ref=v1.1.1"
 
   name                = "vnet-tflab-dev-${var.learner_suffix}"
   resource_group_name = module.resource_group.name
